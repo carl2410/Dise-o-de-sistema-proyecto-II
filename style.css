@@ -1,0 +1,36 @@
+
+body{
+	background-image: url(fondo.png);
+
+	
+}
+
+.grido{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 15px;
+
+
+}
+
+.btn{
+	border: none;
+	width: 100%;
+	margin-top: 20%;
+	background-color:fuchsia;
+	color: white;
+	cursor:pointer;
+}
+.btn:hover{
+	background-color: blue;
+}
+
+
+.row{
+	display: flex;
+	padding: 0 450px;
+	color: black;
+	font-size: 18px;
+
+}
+
